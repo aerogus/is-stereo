@@ -23,7 +23,7 @@ THRESHOLD_MAYBE_MONO=-40.0 # le fichier exporté est pas fort, doute
 
 usage()
 {
-  echo "Usage: $0 -i input.wav [-f] [-v] [-h]"
+  echo "Usage: $0 -i input.wav [-q] [-f] [-h] [-v]"
   echo "-i : chemin de l'audio à analyser"
   echo "-q : mode silencieux: n'affiche que la conclusion"
   echo "-f : mode fast: n'analyse que la 1ère minute de l'audio"
